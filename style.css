@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #513992;
+    background-color: #361a5e;
     text-align: center;
 
 }
@@ -24,8 +24,8 @@ h1{
 }
 
 .game{
-    height: 60vmin;
-    width: 60vmin;
+    height: 57vmin;
+    width: 57vmin;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,6 +48,7 @@ h1{
 #reset-btn{
     padding: 1rem;
     font-size: 1.25rem;
+    font-family: math;
     background-color: rgb(173, 33, 129);
     color: rgb(255, 254, 254);
     border-radius: 1rem;
@@ -59,15 +60,16 @@ h1{
 #new-btn{
     padding: 1rem;
     font-size: 1.25rem;
+    font-family: math;
     background-color: rgb(173, 33, 129);
-    color: rgb(251, 250, 250);
+    color: whitesmoke;
     border-radius: 1rem;
     border: none;
     cursor: pointer;
 }
 
 .msg{
-    color: rgb(236, 29, 67);
+    color: rgb(242, 201, 15);
     font-size: 5vmin;
 
 }
@@ -80,14 +82,4 @@ h1{
 
 .hide{
     display: none;
-}
-
-#again {
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: rgb(173, 33, 129);
-    color: rgb(251, 250, 250);
-    border-radius: 1rem;
-    border: none;
-    cursor: pointer;
 }
